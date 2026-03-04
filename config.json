@@ -1,0 +1,12 @@
+{
+  "sound_enabled": false,
+  "refresh_rate": 100,
+  "display_format": "all",
+  "theme": "dark",
+  "auto_update": true,
+  "window_geometry": "1600x1000+26+26",
+  "last_architecture": "8-bit",
+  "breakpoints": [],
+  "watch_expressions": [],
+  "auto_save": true
+}
