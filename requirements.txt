@@ -1,0 +1,13 @@
+# Core dependencies (usually included with Python)
+# tkinter - GUI framework (included with Python)
+
+# Optional dependencies for enhanced features
+# pyaudio>=0.2.11  # For sound effects (optional)
+
+# Note: tkinter is included with most Python installations
+# PyAudio is optional - the GUI will work without sound if not installed
+
+# To install PyAudio (optional):
+# Windows: pip install pipwin && pipwin install pyaudio
+# macOS: brew install portaudio && pip install pyaudio
+# Linux: sudo apt-get install portaudio19-dev && pip install pyaudio

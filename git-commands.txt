@@ -1,0 +1,53 @@
+# Git Commands to Push to GitHub
+
+## Step 1: Initialize Git Repository (if not already done)
+git init
+
+## Step 2: Add all files
+git add .
+
+## Step 3: Create initial commit
+git commit -m "Initial commit: Multi-Architecture Computer Systems with Sound Effects
+
+- 6 computer architectures (8, 16, 32, 64, 128, 256-bit)
+- 26 registers (A-Z) per architecture
+- 100+ instruction opcodes including MOV and XCHG
+- 11 authentic retro sound effects
+- 4 display formats (Binary, Hex, Decimal, Octal)
+- 3 interactive GUIs
+- 15 assembly programs
+- Comprehensive mathematical libraries
+- Complete documentation
+- Full test suite (100% passing)"
+
+## Step 4: Create GitHub repository
+# Go to https://github.com/new
+# Create a new repository named: multi-arch-computer
+# Do NOT initialize with README (we already have one)
+
+## Step 5: Add remote repository
+# Replace YOUR_USERNAME with your GitHub username
+git remote add origin https://github.com/YOUR_USERNAME/multi-arch-computer.git
+
+## Step 6: Push to GitHub
+git branch -M main
+git push -u origin main
+
+## Alternative: If you prefer SSH
+# git remote add origin git@github.com:YOUR_USERNAME/multi-arch-computer.git
+# git push -u origin main
+
+## Verify push
+# Visit: https://github.com/YOUR_USERNAME/multi-arch-computer
+
+## Future updates
+# After making changes:
+git add .
+git commit -m "Description of changes"
+git push
+
+## Create a release (optional)
+# Go to: https://github.com/YOUR_USERNAME/multi-arch-computer/releases/new
+# Tag: v1.0.0
+# Title: Multi-Architecture Computer Systems v1.0.0
+# Description: Initial release with all features
